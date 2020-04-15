@@ -17,4 +17,16 @@ h1 {
     color: #520000;
     font-family: "BebasNeue";
     font-size: 8.5rem;
+    animation: 1s ease-out 0s 1 nameAppear;
 }
+
+
+
+@keyframes nameAppear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1
+    }
+  }
