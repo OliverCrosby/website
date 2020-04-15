@@ -1,0 +1,20 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url("BebasNeue-Regular.otf") format("opentype");
+}
+
+html {
+    font-size: calc(0.5em + 0.5vw + 0.5vh);
+}
+body {
+    background:#030303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1 {
+    color: #520000;
+    font-family: "BebasNeue";
+    font-size: 8.5rem;
+}
